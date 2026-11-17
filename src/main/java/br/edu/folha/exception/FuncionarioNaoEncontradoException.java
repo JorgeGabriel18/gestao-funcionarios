@@ -1,0 +1,7 @@
+package br.edu.folha.exception;
+
+public class FuncionarioNaoEncontradoException extends RuntimeException {
+    public FuncionarioNaoEncontradoException(String mensagem) {
+        super(mensagem);
+    }
+}
